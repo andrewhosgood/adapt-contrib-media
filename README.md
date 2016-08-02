@@ -61,6 +61,8 @@ The decision to include more than one file format is typically based on the brow
 
 >**ogv** (string): File name (including path) of the video file. Path should be relative to the *src* folder (e.g., *course/en/video/video-1.ogv*).
 
+>**webm** (string): File name (including path) of the video file. Path should be relative to the *src* folder (e.g., *course/en/video/video-1.webm*).
+
 >**poster** (string): File name (including path) of the optional image to be shown while the video is downloading, or until the user hits the play button. If this is not included, the first frame of the video will be used instead. Path should be relative to the *src* folder (e.g., *course/en/images/video-1.jpg*).
 
 >**cc** (array):  Closed captions in multiple languages may be provided. Each object in this list contains values for **srclang** and **src**.
